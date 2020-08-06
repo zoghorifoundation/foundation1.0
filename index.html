@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 </head>
 <!--END OF HEAD-->
@@ -589,15 +591,19 @@
             <h2><i class="fa fa-envelope" aria-hidden="true"></i> enquiries: </h2>
             <hr class="thick">
             <div class="dark">
-                <form action="#" method="POST">
+                <!--<form action="#" method="POST"> -->
+                <form action="https://send.pageclip.co/THpz1oFITLuUn0e4f61mqaXUNLgr9VjO" class="pageclip-form" method="post">
                     <label>Full Name(s)</label>
-                    <input type="text" name="Username" placeholder="Enter full name(s):" class="form-control mb-2">
+                    <input type="text" name="name" placeholder="Enter full name(s):" class="form-control mb-2">
                     <label>Phone Number</label><input type="tel" name="Phone" placeholder="Enter phone number with country code" class="form-control mb-2">
-                    <label>E-mail</label> <input type="email" name="mail" placeholder="Enter E-mail:" class="form-control
+                    <label>E-mail</label> <input type="email" name="email" placeholder="Enter E-mail:" class="form-control
                  mb-2">
                     <label>Enter the enquiry here:</label> <textarea name="msg" class="form-control" placeholder="Write the enquiry here:"></textarea><br>
-                    <!--<button class="btn btn-success" name="btn-send"><span>SEND</span></button>-->
-                    <button class="w3-button w3-block w3-section w3-yellow w3-ripple w3-padding">Send</button>
+                    <!--<button class="btn btn-success" name="btn-send"><span>SEND</span></button>
+                    <button class="w3-button w3-block w3-section w3-yellow w3-ripple w3-padding">Send</button>-->
+                     <button type="submit" class="pageclip-form__submit">
+    <span>Send</span>
+  </button>
                 </form>
             </div>
         </div>
@@ -612,9 +618,9 @@
             <h2>stay connected and receive newsletters:</h2>
             <small>Start by signing up for the notifications on the progress and events we have</small>
             <div id="footer-form-wrap">
-                <form action="#" method="post" id="mc-embedded-subscribe-form">
+                <form action="https://send.pageclip.co/THpz1oFITLuUn0e4f61mqaXUNLgr9VjO" method="post" id="mc-embedded-subscribe-form">
                     <label for="mce-EMAIL" class="screen-reader">Email Address</label>
-                    <input type="email" name="EMAIL" class="required email mailchimp-email-input" id="mce-EMAIL" placeholder="sample@foundation.com" required="">
+                    <input type="email" name="email" class="required email mailchimp-email-input" id="mce-EMAIL" placeholder="sample@foundation.com" required="">
                     <input type="submit" value="Subscribe" name="Subscribe" id="mc-embedded-subscribe" class="button subscribe-button">
                 </form>
             </div>

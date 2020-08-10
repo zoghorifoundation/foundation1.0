@@ -16,7 +16,7 @@ body {
  /* background-image: linear-gradient(90deg, #ff8a00,#e52e71); */
 
   /*background:#ADD8E6;*/
-	background:#fff;
+	background:#C0C0C0;
   font-family: Comic Sans;
   transition: all 200ms linear;
 }
@@ -206,7 +206,7 @@ padding: 90px 10px;*/
 .picture-header {
 	font-family: Castellar;
 	text-align: center;
-	font-size: 5rem;
+	font-size: 3rem;
 	color: #000;
 	padding-top: 1rem;
   }

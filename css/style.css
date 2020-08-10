@@ -58,11 +58,11 @@ padding: 90px 10px;*/
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #f4511e !important;
-    background-color: #fff !important;
+    background-color: #D3D3D3 !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: #fff !important;
+    color: #D3D3D3 !important;
   }
 /*
 .navbar {

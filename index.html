@@ -567,7 +567,7 @@
             <hr class="thick">
             <div class="dark">
                 <!--<form action="#" method="POST"> -->
-                <form action="https://send.pageclip.co/THpz1oFITLuUn0e4f61mqaXUNLgr9VjO" class="pageclip-form" method="post">
+                <form action="https://send.pageclip.co/THpz1oFITLuUn0e4f61mqaXUNLgr9VjO" class="pageclip-form" method="post" onsubmit="myFunction()">
                     <label>Full Name(s)</label>
                     <input type="text" name="name" placeholder="Enter full name(s):" class="form-control mb-2" required />
                     <label>Phone Number</label><input type="tel" name="Phone" placeholder="Enter phone number with country code" class="form-control mb-2" required/>
@@ -577,6 +577,13 @@
                     <button type="submit" class="pageclip-form__submit w3-button w3-block w3-section w3-yellow w3-ripple w3-padding">Send</button>
                     <!-- <button type="submit"  class="w3-button w3-block w3-section w3-yellow w3-ripple w3-padding" class="pageclip-form__submit"><span>Send</span></button>-->
                 </form>
+                
+<script>
+function myFunction() {
+  alert("You message has been received, thank you!");
+}
+</script>
+
             </div>
         </div>
     </div>

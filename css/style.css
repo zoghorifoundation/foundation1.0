@@ -199,7 +199,7 @@ padding: 90px 10px;*/
 }
 
 .home-container {
-  background-image: url("./assets/60.jpg");
+  background: #fff;
 
 }
 
@@ -234,7 +234,7 @@ padding: 90px 10px;*/
   }
   .w3-container p {
 	text-align: center;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	font-size: medium;
 	color: black;
     font-family: "Arial Rounded MT Bold";
@@ -245,7 +245,7 @@ padding: 90px 10px;*/
 
   .w3-third {
     text-align: center;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
      
     }
     .w3-third p {
@@ -352,6 +352,7 @@ padding: 90px 10px;*/
       outline: 0;
       border: 1px solid #ccc;
       padding: .5rem 1rem;
+	      width: fit-content;
       }
       
       input[type="submit"] {

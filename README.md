@@ -1,1 +1,1 @@
-<img src="images/zoghorilogo2.png">
+<img src="images/logo41.png">

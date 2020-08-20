@@ -1,1 +1,1 @@
-<img src="images/logo41.png">
+<img src="images/spectralogo1.png">

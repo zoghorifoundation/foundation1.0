@@ -662,10 +662,19 @@ blockquote p {
         <small>Start by signing up for the notifications on the progress and events we have</small>
         <form action="https://send.pageclip.co/THpz1oFITLuUn0e4f61mqaXUNLgr9VjO" method="post" onsubmit="myForm">
             <div class="form-group">
-                <label for="email" class="screen-reader">EMAIL ADDRESS</label>
-                <input type="email" class="form-control" placeholder="foundation@example.com" name="email" required style="width:fit-content;">
+                <label for="email" class="screen-reader">SUBSCRIBE</label>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder=foundation@example.com" aria-label="Email" aria-describedby="button-addon2" required >
+                <div class="input-group-append">
+                <button class="btn btn-outline-secondary  pageclip-form__submit" type="button" id="button-addon2">Subscribe</button>
+      </div>
+</div>
+
+                                                                                                     
+
+               <!-- <input type="email" class="form-control" placeholder="foundation@example.com" name="email" required style="width:fit-content;">
             </div>
-            <input type="submit" value="Subscribe" name="Subscribe" class="pageclip-form__submit button">
+            <input type="submit" value="Subscribe" name="Subscribe" class="pageclip-form__submit button">-->
         </form>
         <script>
             function myForm() {
@@ -674,6 +683,13 @@ blockquote p {
         </script>
 
     </div>
+
+
+
+
+
+
+
     <!--
     <footer class="site-footer footer-newsletter">
         <div class="footer-newsletter-inside">

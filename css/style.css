@@ -255,8 +255,9 @@ h6 {
     padding-top: 15px;
 }
 
-.w3-container h1 {
+#home .w3-container h1 {
     text-align: center;
+    justify-content:center;
     text-transform: uppercase;
     color: #000;
     font-family: Bahnschrift;

@@ -57,6 +57,7 @@ padding: 90px 10px;*/
 .navbar li a,
 .navbar .navbar-brand {
     color: #000 !important;
+    opacity: 0.2;
 }
 
 .navbar-nav li a:hover,

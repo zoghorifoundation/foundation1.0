@@ -251,8 +251,8 @@ h6 {
     text-decoration: #000000;
 }
 
-.w3-container {
-    padding-top: 15px;
+#home .w3-container {
+    padding-top: 50px;
 }
 
 #home .w3-container h1 {

@@ -228,17 +228,6 @@ padding: 90px 10px;*/
     }
 }
 
-.home-container {
-    background: #fff;
-}
-
-.picture-header {
-    font-family: Castellar;
-    text-align: center;
-    font-size: 3rem;
-    color: #000;
-    padding-top: 1rem;
-}
 
 h2,
 h3,
@@ -252,7 +241,7 @@ h6 {
 }
 
 #home .w3-container {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 #home .w3-container h1 {
@@ -281,10 +270,11 @@ h6 {
     color: rgb(22, 20, 20);
 }
 
-#beneficiaries img {
-    border-radius: 1px;
-    height: 100px;
+#beneficiariesimg {
     width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
 }
 
 aside#sidebar {

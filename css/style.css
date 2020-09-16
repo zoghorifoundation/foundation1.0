@@ -56,8 +56,7 @@ padding: 90px 10px;*/
 
 .navbar li a{
  color: #000 !important;
-    opacity: 1.0;
-
+ 
 }
 .navbar .navbar-brand {
     color: #fff;
@@ -201,6 +200,12 @@ h6 {
     text-decoration: #000000;
 }
 
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #000; 
+    
+}
 #home .w3-container {
     padding-top: 100px;
 }

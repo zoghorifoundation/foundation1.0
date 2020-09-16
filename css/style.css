@@ -54,10 +54,14 @@ body {
 padding: 90px 10px;*/
 }
 
-.navbar li a,
+.navbar li a{
+ color: #000 !important;
+    opacity: 1.0;
+
+}
 .navbar .navbar-brand {
-    color: #000 !important;
-    opacity: 0.2;
+    color: #fff;
+    opacity: 1.0;
 }
 
 .navbar-nav li a:hover,
@@ -70,49 +74,6 @@ padding: 90px 10px;*/
     border-color: transparent;
     color: #D3D3D3 !important;
 }
-
-
-/*
-.navbar {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 90px 10px;
-  transition: 0.4s;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 99;
-}
-
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  /*text-decoration: none;*/
-
-
-/*
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.navbar #zoghori-foundation {
-  font-size: 35px;
-  font-weight: bold;
-  transition: 0.4s;
-}
-
-.navbar a:hover {
-  background-color: #031052;
-  color: #ee0606;
-}
-
-.navbar a.active {
-  background-color: #061340;
-  color: #ffffff;
-}
-*/
 
 .collapse {
     float: right;
@@ -205,7 +166,7 @@ padding: 90px 10px;*/
 @-webkit-keyframes fade {
     from {
         opacity: .4
-    }
+  }
     to {
         opacity: 1
     }
@@ -225,12 +186,11 @@ padding: 90px 10px;*/
 
 @media only screen and (max-width: 300px) {
     .text {
-        font-size: 11px
+        font-size: 11px;
     }
 }
 
 
-h2,
 h3,
 h4,
 h6 {
@@ -299,33 +259,9 @@ aside#sidebar {
 }
 
 
-/*
-.footer-newsletter {
-    background: #a799d6;
-    text-align: center;
-}
-
-.footer-newsletter-inside {
-    padding: 2rem 2rem 8rem;
-    max-width: var(--maxWidth);
-    margin: 0 auto;
-}
-
-.footer-newsletter {
-    background: #103eea;
-    text-align: center;
-}
-
-.footer-newsletter-inside {
-    padding: 2rem 2rem 8rem;
-    max-width: var(--maxWidth);
-    margin: 0 auto;
-}
-*/
-
 hr.thick {
     border: 0;
-    height: 5px;
+    height: 3px;
     margin: 4rem 0;
     background-image: linear-gradient(90deg, #ff8a00, #e52e71);
     border-radius: 5px;
@@ -368,43 +304,3 @@ input[type="submit"] {
     text-decoration: none !important;
 }
 
-
-/*
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-blockquote {
-    font-size: 1.4em;
-    width: 60%;
-    margin: 50px auto;
-    font-family: Open Sans;
-    font-style: italic;
-    color: #555555;
-    padding: 1.2em 30px 1.2em 75px;
-    border-left: 8px solid #78C0A8;
-    line-height: 1.6;
-    position: relative;
-    background: #EDEDED;
-}
-
-blockquote::before {
-    font-family: Arial;
-    content: "\201C";
-    color: #78C0A8;
-    font-size: 4em;
-    position: absolute;
-    left: 10px;
-    top: -10px;
-}
-
-blockquote::after {
-    content: '';
-}
-
-blockquote span {
-    display: block;
-    color: #333333;
-    font-style: normal;
-    font-weight: bold;
-    margin-top: 1em;
-}
-
-*/
